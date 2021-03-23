@@ -27,8 +27,8 @@ Dans le repo, vous trouverez :
 
 Obligatoire :
 <!-- - Réproduire à l'identique ou le cas échéant s'approcher au maximum des maquettes du graphiste -->
-- Le bouton découvrir doit permettre d'afficher le formulaire
-- Les champs du formulaire sont tous obligatoires
+<!-- - Le bouton découvrir doit permettre d'afficher le formulaire -->
+<!-- - Les champs du formulaire sont tous obligatoires -->
 <!-- - Proposer une version responsive du site (desktop ; mobile) -->
 - Faire le bon compromis entre la qualité du rendu et le temps passé (c'est un petit test, gardez-le en tête)
 

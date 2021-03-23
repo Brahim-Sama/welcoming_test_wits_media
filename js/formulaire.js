@@ -11,7 +11,7 @@ function onClickbtnDiscovery(e) {
     } else {
         target1.style.display = 'none'; // Si il est visible rendre caché
     }
- }
+}
 
 let btnDiscovery;
 btnDiscovery = document.getElementById('btnDiscovery');
