@@ -3,7 +3,7 @@
             <p class="border mb-0 text-md-center p-3 btn-light">Formulaire de génération d'équipe</p>
             <div class="container border p-5 m-auto">
             <p class="text-secondary p-3"> Remplissez le formulaire suivant :</p>
-            <form method="post" action="./views/result.php" class="">
+            <form method="post" action="generator.php" class="row g-3">
               <div class="row">
                 <div class="col-sm">
                   <label for="nickname1" class="form-label">Joueur 1 *:</label>
@@ -11,8 +11,9 @@
                     type="text"
                     class="form-control"
                     id="nickname1"
-                    name="nickname1"
+                    name="names[]"
                     required
+                    pattern="^[A-Za-z1-9()_-]+$"
                   />
                 </div>
                 <div class="col-sm">
@@ -21,8 +22,9 @@
                     type="text"
                     class="form-control"
                     id="nickname2"
-                    name="nickname2"
+                    name="names[]"
                     required
+                    pattern="^[A-Za-z1-9()_-]+$"
                   />
                 </div>
               </div>
@@ -33,8 +35,9 @@
                     type="text"
                     class="form-control"
                     id="nickname3"
-                    name="nickname3"
+                    name="names[]"
                     required
+                    pattern="^[A-Za-z1-9()_-]+$"
                   />
                 </div>
                 <div class="col-sm">
@@ -43,8 +46,9 @@
                     type="text"
                     class="form-control"
                     id="nickname4"
-                    name="nickname4"
+                    name="names[]"
                     required
+                    pattern="^[A-Za-z1-9()_-]+$"
                   />
                 </div>
               </div>
