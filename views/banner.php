@@ -5,7 +5,7 @@
     </nav>
 <!-- Texte & bouton -->
     <div class="container">
-      <div class="row d-flex align-items-center">
+      <div class="row d-flex flex-column-reverse flex-lg-row align-items-center">
         <div class="col-sm-7">
           <h1 class="text-primary fs-1" style="font-family: 'Kaushan Script', cursive;">Utilisez notre superbe générateur !</h1>
           <h2 class="fs-5">Créez facilement deux équipes de deux joueurs.</h2>
