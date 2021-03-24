@@ -30,11 +30,11 @@ Obligatoire :
 <!-- - Le bouton découvrir doit permettre d'afficher le formulaire -->
 <!-- - Les champs du formulaire sont tous obligatoires -->
 <!-- - Proposer une version responsive du site (desktop ; mobile) -->
-- Faire le bon compromis entre la qualité du rendu et le temps passé (c'est un petit test, gardez-le en tête)
+<!-- - Faire le bon compromis entre la qualité du rendu et le temps passé (c'est un petit test, gardez-le en tête) -->
 
 Optionnel :
-- Proposer la génération aléatoire des équipes et afficher le resultat
+<!-- - Proposer la génération aléatoire des équipes et afficher le resultat -->
 OU
-- Vérifier que les quatres champs respectent la contrainte suivante => uniquement des lettres ou des chiffres ou les caractères suivants : "-_()"
+<!-- - Vérifier que les quatres champs respectent la contrainte suivante => uniquement des lettres ou des chiffres ou les caractères suivants : "-_()" -->
 
 /**** HAPPY CODING :) ****/

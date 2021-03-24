@@ -8,8 +8,8 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                  <p><?= $aPlayersChunked[0][0] ?></p>
-                  <p><?= $aPlayersChunked[0][1] ?></p>
+                  <p><?= htmlspecialchars($aPlayersChunked[0][0]) ?></p>
+                  <p><?= htmlspecialchars($aPlayersChunked[0][1]) ?></p>
               </div>
           </div>
       </div>
@@ -21,8 +21,8 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                  <p><?= $aPlayersChunked[1][0] ?></p>
-                  <p><?= $aPlayersChunked[1][1] ?></p>
+                  <p><?= htmlspecialchars($aPlayersChunked[1][0]) ?></p>
+                  <p><?= htmlspecialchars($aPlayersChunked[1][1]) ?></p>
               </div>
           </div>
       </div>

@@ -2,7 +2,7 @@
 /* récupérer les données du formulaire en utilisant 
     la valeur des attributs name comme clé 
     */
-$aPlayers = $_POST['names'];
+$aPlayers =  $_POST['names']; 
 // afficher le résultat
 shuffle($aPlayers);
 $aPlayersChunked = array_chunk($aPlayers, 2);
